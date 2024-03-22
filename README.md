@@ -23,8 +23,8 @@ Otherwise your job can be killed in the free partition.
 #SBATCH -p free				## partition/queue name
 #SBATCH --nodes=8			##(-N) number of nodes to use
 #SBATCH --mem=100G ## request 100GB of memory
-#SBATCH -e /dfs3b/hertel-lab/fcarranz/project_name/star_build/star_align.err	##Error_log
-#SBATCH -o /dfs3b/hertel-lab/fcarranz/project_name/star_build/star_build.out	##outputfile_log
+#SBATCH -e /dfs3b/hertel-lab/fcarranz/project_name/alignments/star_align.err	##Error_log
+#SBATCH -o /dfs3b/hertel-lab/fcarranz/project_name/alignments/star_build.out	##outputfile_log
 #SBATCH --mail-user fcarranz@uci.edu
 #SBATCH --mail-type=ALL
 ```
