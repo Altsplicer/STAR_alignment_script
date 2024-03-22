@@ -2,6 +2,8 @@
 
 Script [LINK](https://github.com/Altsplicer/STAR_alignment_script/blob/main/bash/STAR_align.sub)
 
+[![.img/fig1.png](.img/fig1.png)](#nolink)
+
 ## Overview
 
 This a script used to map reads using the STAR aligner.
